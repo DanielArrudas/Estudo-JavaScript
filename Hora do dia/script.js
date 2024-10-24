@@ -3,7 +3,6 @@ function carregar(){
     var agora = new Date()
     var hora = agora.getHours()
     var minuto = agora.getMinutes()
-    hora = 22;
     if(minuto >= 0 && minuto < 10)
         minuto = String(`0${minuto}`)
     msg.innerHTML = `A hora atual é ${hora}:${minuto}!`
