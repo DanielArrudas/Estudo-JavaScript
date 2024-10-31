@@ -4,7 +4,7 @@ function carregar(){
     const compliments = document.getElementById('compliments')
 
     const now = new Date()
-    var hour = now.getHours()
+    const hour = now.getHours()
     const minute = now.getMinutes().toString().padStart(2, '0')
     displayTime(msg, hour, minute)
     
